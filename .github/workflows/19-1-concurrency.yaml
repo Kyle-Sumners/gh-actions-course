@@ -1,4 +1,4 @@
-name: 19 - Managing Currency
+name: 19 - 1 - Managing Currency
 
 on:
   workflow_dispatch:
