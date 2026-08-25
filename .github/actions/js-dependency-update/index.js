@@ -97,7 +97,7 @@ async function run() {
     const octokit = github.getOctokit(ghToken)
 
     try {
-      logger.debug('Creating PR using head branch ${headBranch}')
+      logger.debug(`Creating PR using head branch ${headBranch}`)
       await octokit.rest.pulls.create({
         owner: github.context.repo.owner,
         repo: github.context.repo.repo,
